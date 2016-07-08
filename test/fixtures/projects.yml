@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  team_id: 1
+  name: MyString
+  description: MyText
+  logo: MyString
+  git_link: MyString
+  trello_link: MyString
+  needed_budget: 1.5
+  got_budget: 1.5
+
+two:
+  team_id: 1
+  name: MyString
+  description: MyText
+  logo: MyString
+  git_link: MyString
+  trello_link: MyString
+  needed_budget: 1.5
+  got_budget: 1.5

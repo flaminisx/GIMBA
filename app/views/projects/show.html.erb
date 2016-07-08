@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Team:</strong>
+  <%= @project.team_id %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @project.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @project.description %>
+</p>
+
+<p>
+  <strong>Logo:</strong>
+  <%= @project.logo %>
+</p>
+
+<p>
+  <strong>Git link:</strong>
+  <%= @project.git_link %>
+</p>
+
+<p>
+  <strong>Trello link:</strong>
+  <%= @project.trello_link %>
+</p>
+
+<p>
+  <strong>Needed budget:</strong>
+  <%= @project.needed_budget %>
+</p>
+
+<p>
+  <strong>Got budget:</strong>
+  <%= @project.got_budget %>
+</p>
+
+<%= link_to 'Edit', edit_project_path(@project) %> |
+<%= link_to 'Back', projects_path %>

@@ -1,0 +1,57 @@
+<%= form_for(project) do |f| %>
+  <% if project.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(project.errors.count, "error") %> prohibited this project from being saved:</h2>
+
+      <ul>
+      <% project.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :team_id %>
+    <%= f.number_field :team_id %>
+  </div>
+
+  <div class="field">
+    <%= f.label :name %>
+    <%= f.text_field :name %>
+  </div>
+
+  <div class="field">
+    <%= f.label :description %>
+    <%= f.text_area :description %>
+  </div>
+
+  <div class="field">
+    <%= f.label :logo %>
+    <%= f.text_field :logo %>
+  </div>
+
+  <div class="field">
+    <%= f.label :git_link %>
+    <%= f.text_field :git_link %>
+  </div>
+
+  <div class="field">
+    <%= f.label :trello_link %>
+    <%= f.text_field :trello_link %>
+  </div>
+
+  <div class="field">
+    <%= f.label :needed_budget %>
+    <%= f.text_field :needed_budget %>
+  </div>
+
+  <div class="field">
+    <%= f.label :got_budget %>
+    <%= f.text_field :got_budget %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

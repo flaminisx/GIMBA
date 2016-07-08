@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Speaker:</strong>
+  <%= @team.speaker_id %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @team.name %>
+</p>
+
+<p>
+  <strong>Icon:</strong>
+  <%= @team.icon %>
+</p>
+
+<p>
+  <strong>Slack name:</strong>
+  <%= @team.slack_name %>
+</p>
+
+<%= link_to 'Edit', edit_team_path(@team) %> |
+<%= link_to 'Back', teams_path %>
