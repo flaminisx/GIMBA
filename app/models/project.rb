@@ -1,2 +1,5 @@
 class Project < ApplicationRecord
+    has_and_belongs_to_many :tags
+    has_many :events
+    belongs_to :team
 end
