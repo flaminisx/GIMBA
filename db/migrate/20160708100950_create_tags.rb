@@ -6,7 +6,7 @@ class CreateTags < ActiveRecord::Migration[5.0]
       t.timestamps
     end
     
-    create_table :teams_tags, id: false do |t|
+    create_table :tags_teams, id: false do |t|
       t.belongs_to :team, index: true
       t.belongs_to :tag, index: true
     end
@@ -18,6 +18,11 @@ class CreateTags < ActiveRecord::Migration[5.0]
     
     create_table :events_tags, id: false do |t|
       t.belongs_to :event, index: true
+      t.belongs_to :tag, index: true
+    end
+
+    create_table :profiles_tags, id: false do |t|
+      t.belongs_to :profile, index: true
       t.belongs_to :tag, index: true
     end
   end
