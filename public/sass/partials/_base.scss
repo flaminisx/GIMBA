@@ -1,0 +1,31 @@
+html{
+  overflow-x: hidden;
+}
+
+a{
+  cursor: pointer;
+}
+
+* {
+  font-family: 'Archivo Narrow', sans-serif;
+  font-weight: bold;
+}
+
+header{
+  margin-top: 55px;
+  background-color: $cream;
+  border-top: 2px solid #c2c2c2;
+}
+
+ul{
+  display: block;
+  padding-left: 0;
+  li{
+    display: block;
+  }
+}
+
+button{
+  border: 0;
+  outline: none;
+}

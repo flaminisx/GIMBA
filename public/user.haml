@@ -1,0 +1,171 @@
+!!! 5
+%html{lang:"en"}
+  %head
+    %meta{charset:"utf-8"}
+    %link{href:"https://fonts.googleapis.com/css?family=Raleway:300,400&subset=latin,latin-ext", rel:'stylesheet', type:'text/css'}
+    %link{href:'https://fonts.googleapis.com/css?family=Archivo+Narrow:400,700&subset=latin,latin-ext', rel:'stylesheet', type:'text/css'}
+    %link{href:"stylesheets/styles.css", rel:"stylesheet"}
+    %link{href:"stylesheets/print.css", media:"print", rel:"stylesheet", type:"text/css"}
+    %title GIMBA
+  %body
+    %header
+      .wrap
+        .user-skills
+          %p.name Анна Левицкая
+          .location
+            %img{src:'img/gps.png'}
+            %p Украина, Черновцы
+          .skills
+            .vr
+            %ul
+              %li Adobe Illustrator
+              %li Adobe InDesign
+              %li Adobe Photoshop
+              %li Logo Design
+              %li Graphic design
+              %li Print Layout Design
+              %li Magazine Layout
+              %li Format & Layout
+              %li Brochure Design
+              %li Label and Package Design
+        .ava
+          .user
+          .buttons
+            %button#message Send a message
+            %div
+              %button#follow Follow
+        .info
+          .yourself
+            .head-info
+              %h3 Подписки
+              %div
+              %h4 4 сообщества
+            %hr
+            .communities
+              %a#prev-com
+                %img{src:"img/left.png"}
+              .community
+                .com-logo
+                .com-info
+                  %h5 Webtackles
+                  %p Web is awesome!
+                  %p 16,958 followers
+              .community
+                .com-logo
+                .com-info
+                  %h5 Webtackles
+                  %p Web is awesome!
+                  %p 16,958 followers
+              %a#next-com
+                %img{src:"img/right.png"}
+            %hr
+          .yourself.yourself-info
+            .head-info
+              %h3 О себе
+            %hr
+    %section.blog
+      .wrap
+        .blogSearch
+          %p 12 записей
+          %hr
+          .searchBox
+            %input{type:'text'}
+            %button#blogSearch
+        .examples
+          %a#left-blog
+            %img{src:"img/left-arrow.png"}
+          .example.left
+            .data
+              %p.day 12 апреля 2015
+              %hr
+              %p.time 00:09
+            %h2 Заголовок
+            %img{src:"img/bike.png"}
+            %button#comment Комментировать
+          .example.left
+            .data
+              %p.day 12 апреля 2015
+              %hr
+              %p.time 00:09
+            %img.solo-img{src:"img/mountain.png"}
+            %button#comment Комментировать
+          .example.left
+            .data
+              %p.day 12 апреля 2015
+              %hr
+              %p.time 00:09
+            %h2 Заголовок
+            .content
+              %p.content-header  На днях начну активную работу над очень серьезным проектом.
+              %p.content-body  Желаю всем удачи, работайте над собой и у вас обязательно все получится ;)
+            %button#comment Комментировать
+          %a#rigth-blog
+            %img{src:"img/rigth-arrow.png"}
+    %section.timeline
+      %header
+        .wrap
+          %p 12 записей
+          %hr
+          .searchBox
+            %input{type:'text', placeholder:"поиск по дате |"}
+            %button#timeSearch
+      %section
+        .wrap
+          %button{style:"background-image:url(img/left-time.png)"}
+          .time-table
+            .actions.top
+              .action
+              .action
+              .action
+            .action-data
+              %ul
+                %li#1
+                  %div
+                    %p 24.07.16
+                    %p 12:46
+                %li#2
+                  %div
+                    %p 24.07.16
+                    %p 13:46
+                %li#3
+                  %div
+                    %p 25.07.16
+                    %p 14:46
+                %li#4
+                  %div
+                    %p 26.07.16
+                    %p 11:40
+                %li#5
+                  %div
+                    %p 27.07.16
+                    %p 10:30
+                %li#6
+                  %div
+                    %p 31.07.16
+                    %p 00:00
+            .actions.bottom
+              .action
+              .action
+              .action
+          %button{style:"background-image:url(img/right-time.png)"}
+          .hor-line
+          %ul.vert-line.top-line
+            %li
+            %li
+            %li
+          %ul.vert-line.bottom-line
+            %li
+            %li
+            %li
+
+    %footer
+      .wrap
+        %h3 CONNECT WITH ME
+        .vertical
+        .contacts
+          %p + 380931112299
+          %p GimblGroup@gmail.com
+          .socials
+            %a{style:"background-image:url(img/vk.png)"}
+            %a{style:"background-image:url(img/fb.png)"}
+            %a{style:"background-image:url(img/t.png)"}
