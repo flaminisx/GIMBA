@@ -334,8 +334,8 @@ input[type="checkbox"], input[type="radio"] {
 /* line 20, ../sass/styles.scss */
 .user-skills .name {
   color: #fff;
-  font-size: 18px;
-  letter-spacing: 1px;
+  font-size: 30px;
+  font-weight: bold;
   cursor: default;
   margin-top: 0;
   margin-bottom: 8px;
@@ -351,27 +351,26 @@ input[type="checkbox"], input[type="radio"] {
 }
 /* line 34, ../sass/styles.scss */
 .user-skills .location p {
-  font-size: 13px;
+  font-size: 16px;
   color: #fff;
   margin-top: 7px;
   margin-left: 7px;
-  letter-spacing: 1px;
 }
-/* line 42, ../sass/styles.scss */
+/* line 41, ../sass/styles.scss */
 .user-skills .skills {
   display: flex;
 }
-/* line 44, ../sass/styles.scss */
+/* line 43, ../sass/styles.scss */
 .user-skills .skills .vr {
   width: 1px;
   background-color: #fff;
 }
-/* line 48, ../sass/styles.scss */
+/* line 47, ../sass/styles.scss */
 .user-skills .skills ul {
   margin-top: 24px;
   margin-bottom: 9px;
 }
-/* line 51, ../sass/styles.scss */
+/* line 50, ../sass/styles.scss */
 .user-skills .skills ul li {
   margin-bottom: 10px;
   text-decoration: none;
@@ -384,14 +383,14 @@ input[type="checkbox"], input[type="radio"] {
   color: #111;
 }
 
-/* line 66, ../sass/styles.scss */
+/* line 65, ../sass/styles.scss */
 .ava {
   margin-left: 72.5px;
   margin-right: 72.5px;
   width: 300px;
   padding-top: 50px;
 }
-/* line 71, ../sass/styles.scss */
+/* line 70, ../sass/styles.scss */
 .ava .user {
   border: 4px solid #038903;
   border-radius: 100%;
@@ -399,19 +398,19 @@ input[type="checkbox"], input[type="radio"] {
   height: 294px;
   background-image: url(../img/user1.png);
 }
-/* line 78, ../sass/styles.scss */
+/* line 77, ../sass/styles.scss */
 .ava .buttons {
   margin-top: 30px;
   display: block;
   padding-left: 46px;
   padding-right: 46px;
 }
-/* line 83, ../sass/styles.scss */
+/* line 82, ../sass/styles.scss */
 .ava .buttons div {
   margin-top: 10px;
   display: flex;
 }
-/* line 87, ../sass/styles.scss */
+/* line 86, ../sass/styles.scss */
 .ava .buttons button {
   display: block;
   height: 33px;
@@ -422,17 +421,17 @@ input[type="checkbox"], input[type="radio"] {
   margin: auto;
 }
 
-/* line 99, ../sass/styles.scss */
+/* line 98, ../sass/styles.scss */
 #message {
   width: 155px;
 }
 
-/* line 103, ../sass/styles.scss */
+/* line 102, ../sass/styles.scss */
 #follow {
   width: 155px;
 }
 
-/* line 107, ../sass/styles.scss */
+/* line 106, ../sass/styles.scss */
 #statistic {
   margin-left: 12px;
   width: 35px;
@@ -441,19 +440,19 @@ input[type="checkbox"], input[type="radio"] {
   background-position: center;
 }
 
-/* line 115, ../sass/styles.scss */
+/* line 114, ../sass/styles.scss */
 .info {
   width: 425px;
   padding-top: 5px;
 }
-/* line 118, ../sass/styles.scss */
+/* line 117, ../sass/styles.scss */
 .info .yourself {
   border: 1px solid #c3c3c3;
   height: 175px;
   background-color: white;
   margin-top: 18px;
 }
-/* line 123, ../sass/styles.scss */
+/* line 122, ../sass/styles.scss */
 .info .yourself h1 {
   display: block;
   margin-left: 50px;
@@ -462,12 +461,12 @@ input[type="checkbox"], input[type="radio"] {
   font-size: 50px;
   color: #c1c1c1;
 }
-/* line 131, ../sass/styles.scss */
+/* line 130, ../sass/styles.scss */
 .info .yourself .head-info {
   color: #111;
   display: flex;
 }
-/* line 134, ../sass/styles.scss */
+/* line 133, ../sass/styles.scss */
 .info .yourself .head-info div {
   width: 1px;
   background-color: #111;
@@ -476,7 +475,7 @@ input[type="checkbox"], input[type="radio"] {
   margin-left: 6px;
   margin-right: 6px;
 }
-/* line 142, ../sass/styles.scss */
+/* line 141, ../sass/styles.scss */
 .info .yourself .head-info h3 {
   margin-left: 40px;
   margin-top: 15px;
@@ -485,13 +484,13 @@ input[type="checkbox"], input[type="radio"] {
   font-weight: bold;
   display: block;
 }
-/* line 150, ../sass/styles.scss */
+/* line 149, ../sass/styles.scss */
 .info .yourself .head-info h4 {
   margin-top: 20px;
   font-size: 13px;
   display: block;
 }
-/* line 156, ../sass/styles.scss */
+/* line 155, ../sass/styles.scss */
 .info .yourself hr {
   margin: 0;
   display: block;
@@ -499,24 +498,24 @@ input[type="checkbox"], input[type="radio"] {
   margin-right: 40px;
   color: #ebebeb;
 }
-/* line 163, ../sass/styles.scss */
+/* line 162, ../sass/styles.scss */
 .info .yourself .communities {
   display: flex;
   padding-left: 16px;
   margin-top: 7px;
   margin-bottom: 8px;
 }
-/* line 169, ../sass/styles.scss */
+/* line 168, ../sass/styles.scss */
 .info .yourself .communities a img {
   height: 26px;
   width: 22px;
   margin-top: 23px;
 }
-/* line 175, ../sass/styles.scss */
+/* line 174, ../sass/styles.scss */
 .info .yourself .communities .community {
   display: flex;
 }
-/* line 177, ../sass/styles.scss */
+/* line 176, ../sass/styles.scss */
 .info .yourself .communities .community .com-logo {
   margin-left: 10px;
   margin-right: 8px;
@@ -526,44 +525,44 @@ input[type="checkbox"], input[type="radio"] {
   border: 1px solid #038903;
   background-color: #038903;
 }
-/* line 186, ../sass/styles.scss */
+/* line 185, ../sass/styles.scss */
 .info .yourself .communities .community .com-info {
   width: 80px;
   overflow-x: hidden;
 }
-/* line 189, ../sass/styles.scss */
+/* line 188, ../sass/styles.scss */
 .info .yourself .communities .community .com-info h5 {
   font-size: 12px;
   font-weight: bold;
   margin-bottom: 6px;
 }
-/* line 194, ../sass/styles.scss */
+/* line 193, ../sass/styles.scss */
 .info .yourself .communities .community .com-info p {
   margin-top: 0;
   margin-bottom: 6px;
   font-size: 10px;
 }
-/* line 203, ../sass/styles.scss */
+/* line 202, ../sass/styles.scss */
 .info .yourself-info {
   height: 207px;
 }
 
-/* line 209, ../sass/styles.scss */
+/* line 208, ../sass/styles.scss */
 .blog {
   height: 480px;
   padding-top: 45px;
   background-color: #d7d7d7;
 }
-/* line 213, ../sass/styles.scss */
+/* line 212, ../sass/styles.scss */
 .blog .wrap {
   display: block;
 }
-/* line 215, ../sass/styles.scss */
+/* line 214, ../sass/styles.scss */
 .blog .wrap .blogSearch {
   width: 220px;
   margin-left: 0;
 }
-/* line 218, ../sass/styles.scss */
+/* line 217, ../sass/styles.scss */
 .blog .wrap .blogSearch p {
   margin-bottom: 2px;
   margin-top: 0;
@@ -571,16 +570,16 @@ input[type="checkbox"], input[type="radio"] {
   font-weight: bold;
   color: #595959;
 }
-/* line 225, ../sass/styles.scss */
+/* line 224, ../sass/styles.scss */
 .blog .wrap .blogSearch hr {
   margin: 0;
 }
-/* line 228, ../sass/styles.scss */
+/* line 227, ../sass/styles.scss */
 .blog .wrap .blogSearch .searchBox {
   display: flex;
   margin-bottom: 30px;
 }
-/* line 231, ../sass/styles.scss */
+/* line 230, ../sass/styles.scss */
 .blog .wrap .blogSearch .searchBox input {
   color: #6a6a6a;
   padding: 0;
@@ -592,7 +591,7 @@ input[type="checkbox"], input[type="radio"] {
   border: 0;
   outline: 0;
 }
-/* line 242, ../sass/styles.scss */
+/* line 241, ../sass/styles.scss */
 .blog .wrap .blogSearch .searchBox button {
   background-image: url("../img/search.png");
   background-repeat: no-repeat;
@@ -603,22 +602,22 @@ input[type="checkbox"], input[type="radio"] {
   width: 30px;
   height: 30px;
 }
-/* line 254, ../sass/styles.scss */
+/* line 253, ../sass/styles.scss */
 .blog .wrap .examples {
   display: flex;
 }
-/* line 256, ../sass/styles.scss */
+/* line 255, ../sass/styles.scss */
 .blog .wrap .examples a {
   display: block;
 }
-/* line 258, ../sass/styles.scss */
+/* line 257, ../sass/styles.scss */
 .blog .wrap .examples a img {
   display: block;
   margin-top: 109px;
   display: block;
   height: 100%;
 }
-/* line 265, ../sass/styles.scss */
+/* line 264, ../sass/styles.scss */
 .blog .wrap .examples .example {
   margin-left: 34px;
   position: relative;
@@ -627,29 +626,29 @@ input[type="checkbox"], input[type="radio"] {
   background-color: white;
   border: 2px solid #111111;
 }
-/* line 273, ../sass/styles.scss */
+/* line 272, ../sass/styles.scss */
 .blog .wrap .examples .example .data p {
   font-size: 13px;
   color: #959595;
   margin-bottom: 0;
   margin-top: 13px;
 }
-/* line 279, ../sass/styles.scss */
+/* line 278, ../sass/styles.scss */
 .blog .wrap .examples .example .data .day {
   text-align: center;
 }
-/* line 282, ../sass/styles.scss */
+/* line 281, ../sass/styles.scss */
 .blog .wrap .examples .example .data hr {
   margin-top: 5px;
   margin-bottom: 5px;
   color: #959595;
 }
-/* line 287, ../sass/styles.scss */
+/* line 286, ../sass/styles.scss */
 .blog .wrap .examples .example .data .time {
   margin-top: 0;
   color: #dadada;
 }
-/* line 292, ../sass/styles.scss */
+/* line 291, ../sass/styles.scss */
 .blog .wrap .examples .example h2 {
   color: #111111;
   font-weight: bold;
@@ -659,14 +658,14 @@ input[type="checkbox"], input[type="radio"] {
   margin-top: 5px;
   margin-bottom: 10px;
 }
-/* line 301, ../sass/styles.scss */
+/* line 300, ../sass/styles.scss */
 .blog .wrap .examples .example img {
   display: block;
   height: 128px;
   margin: auto;
   border: 1px solid #959595;
 }
-/* line 307, ../sass/styles.scss */
+/* line 306, ../sass/styles.scss */
 .blog .wrap .examples .example .solo-img {
   width: 200px;
   height: auto;
@@ -674,7 +673,7 @@ input[type="checkbox"], input[type="radio"] {
   margin-bottom: 48px;
   border: 0;
 }
-/* line 314, ../sass/styles.scss */
+/* line 313, ../sass/styles.scss */
 .blog .wrap .examples .example button {
   position: absolute;
   bottom: 18px;
@@ -684,6 +683,7 @@ input[type="checkbox"], input[type="radio"] {
   background-color: #111111;
   color: white;
   font-size: 18px;
+  font-weight: bold;
 }
 /* line 324, ../sass/styles.scss */
 .blog .wrap .examples .example .content {

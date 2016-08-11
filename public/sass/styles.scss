@@ -19,8 +19,8 @@
   border-top: 2px solid $grey-hr;
   .name{
     color: #fff;
-    font-size: 18px;
-    letter-spacing: 1px;
+    font-size: 30px;
+    font-weight: bold;
     cursor: default;
     margin-top: 0;
     margin-bottom: 8px;
@@ -32,11 +32,10 @@
         margin-bottom: 24px;
       }
       p{
-        font-size: 13px;
+        font-size: 16px;
         color: #fff;
         margin-top: 7px;
         margin-left: 7px;
-        letter-spacing: 1px;
       }
   }
   .skills{
@@ -320,6 +319,7 @@
           background-color: #111111;
           color: white;
           font-size: 18px;
+          font-weight: bold;
         }
         .content{
           padding-left: 30px;
